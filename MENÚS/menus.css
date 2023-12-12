@@ -1,0 +1,60 @@
+.contenedor {
+    width: 1200px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgb(165, 140, 42);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.azul {
+    background-color: rgb(0, 0, 255);
+}
+.azul2 {
+    background-color: rgb(26, 26, 204);
+}
+.azul3 {
+    background-color: rgb(36, 36, 160);
+}
+.azul4 {
+    background-color: rgb(42, 42, 117);
+}
+.azul5 {
+    background-color: rgb(43, 43, 81);
+}
+.azul6 {
+    background-color: rgb(33, 33, 45);
+}
+.icono {
+    text-align: center;
+    padding-top: 35%;
+    font-size: 50px;
+    color: white;
+}
+.texto {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.contenedor2 {
+    margin-top: 30px;
+    text-align: center;
+    width: 1200px;
+    height: 200px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link {
+    padding: 30px;
+}
+.link:hover {
+    color: rgb(236, 27, 27);
+}
+.link:link {
+    color: rgb(186, 24, 178);
+}
