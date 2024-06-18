@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+  }
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .menu {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .menu a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .menu a:hover {
+    background-color: #555;
+  }
+  
+  .main {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+  }
+  
+  .intro, .projects {
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .right {
+    background-color: #eee;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 600px) {
+    .menu {
+      float: left;
+      width: 20%;
+    }
+  
+    .main {
+      float: left;
+      width: 60%;
+      padding: 20px;
+    }
+  
+    .right {
+      float: left;
+      width: 20%;
+    }
+  
+    .footer {
+      clear: both;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .header h1 {
+      font-size: 2.5em;
+    }
+  
+    .menu a {
+      font-size: 1.2em;
+    }
+  
+    .main, .right {
+      padding: 40px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .header h1 {
+      font-size: 3em;
+    }
+  
+    .menu a {
+      font-size: 1.4em;
+    }
+  
+    .main, .right {
+      padding: 60px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .header h1 {
+      font-size: 3.5em;
+    }
+  
+    .menu a {
+      font-size: 1.6em;
+    }
+  
+    .main, .right {
+      padding: 80px;
+    }
+  }
