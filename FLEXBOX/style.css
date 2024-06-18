@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    margin: 150px auto 0;
+    background-color: rgb(165, 140, 42);
+}
+
+.c {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: flex 0.5s ease;
+}
+
+.azul {
+    background-color: rgb(0, 0, 255);
+}
+
+.azul2 {
+    background-color: rgb(26, 26, 204);
+    transition: flex 0.5s ease-in-out 0s, flex 2s ease-out 0s;
+}
+
+.azul3 {
+    background-color: rgb(36, 36, 160);
+    transition: flex 0.5s ease-in-out 0s, flex 0.5s ease-in 0s;
+}
+
+.azul4 {
+    background-color: rgb(42, 42, 117);
+}
+
+.azul5 {
+    background-color: rgb(43, 43, 81);
+}
+
+.azul6 {
+    background-color: rgb(33, 33, 45);
+}
+
+.icono {
+    font-size: 50px;
+}
+
+.texto {
+    margin-top: 20px;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    width: 1200px;
+    height: 200px;
+}
+
+.link {
+    padding: 30px;
+    color: rgb(186, 24, 178);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(236, 27, 27);
+}
+
+@media (max-width: 1200px) {
+    .contenedor {
+        flex-direction: column;
+        height: auto;
+    }
+    .c {
+        width: 100%;
+        height: 100px;
+    }
+}
+
+.azul2:hover {
+    flex: 2;
+}
+
+.azul3:hover {
+    flex: 1;
+}
+
+.azul4:hover {
+    flex: 1;
+}
