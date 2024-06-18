@@ -1,0 +1,69 @@
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 149, 0);
+}
+
+section {
+    background-color: rgb(255, 98, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
+
+.MORENA {
+    width: 190PX;
+}
+
+.PIRAÑA {
+    width: 161px;
+}
+
+.TIBURÓN {
+    width: 160PX;
+}
+
+.LEON {
+    width: 168px;
+}
+
+.TIGRE {
+    width: 138px;
+}
+
+.LEOPARDO {
+    width: 198px;
+}
+
+.COCODRILO {
+    width: 155px;
+}
+
+.DRAGON {
+    width: 190px;
+}
+
+.SERPIENTE {
+    width: 160px;
+}
+
+.animales {
+    text-align: center;
+}
+
+.reino {
+    font-size: 50px;
+}
+
